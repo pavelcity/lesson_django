@@ -1,0 +1,98 @@
+<div class="bg-white pt-4 sm:pt-10 lg:pt-12">
+  <footer class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div class="mb-16 grid grid-cols-2 gap-12 border-t pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
+      <div class="col-span-full lg:col-span-2">
+        <!-- logo - start -->
+        <div class="mb-4 lg:-mt-2">
+          <a href="{% url 'home' %}" class="inline-flex items-center gap-2 text-xl font-bold text-black md:text-2xl" aria-label="logo">
+            <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+            </svg>
+
+            Blog
+          </a>
+        </div>
+        <!-- logo - end -->
+
+        <p class="mb-6 text-gray-500 sm:pr-8">Это сайт разработанный на django</p>
+
+      </div>
+
+      <!-- nav - start -->
+      <div>
+        <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Menu</div>
+
+        <nav class="flex flex-col gap-4">
+          <div>
+            <a href="{% url 'home' %}" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Главная</a>
+          </div>
+
+          <div>
+            <a href="{% url 'blog' %}" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Блог</a>
+          </div>
+
+          <div>
+            <a href="{% url 'about' %}" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
+          </div>
+
+          <div>
+            <a href="{% url 'info' %}" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Info</a>
+          </div>
+        </nav>
+      </div>
+      <!-- nav - end -->
+
+      <!-- nav - start -->
+      <div>
+        <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Company</div>
+
+        <nav class="flex flex-col gap-4">
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
+          </div>
+
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Investor Relations</a>
+          </div>
+
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Jobs</a>
+          </div>
+
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Press</a>
+          </div>
+
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
+          </div>
+        </nav>
+      </div>
+      <!-- nav - end -->
+
+
+
+      <!-- nav - start -->
+      <div>
+        <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Legal</div>
+
+        <nav class="flex flex-col gap-4">
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Terms of Service</a>
+          </div>
+
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Privacy Policy</a>
+          </div>
+
+          <div>
+            <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Cookie settings</a>
+          </div>
+        </nav>
+      </div>
+      <!-- nav - end -->
+    </div>
+
+    <div class="border-t py-8 text-center text-sm text-gray-400">© 2024 - Present Blog. All rights reserved.</div>
+  </footer>
+</div>
