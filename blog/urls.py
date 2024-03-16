@@ -6,4 +6,6 @@ urlpatterns = [
     path('blog/', BlogPageView.as_view(), name='blog'),
     path('about/', AboutPageView.as_view(), name='about'),
     path('info/', InfoPageView.as_view(), name='info'),
+
+    path('logout/', logout_user, name='logout')
 ]

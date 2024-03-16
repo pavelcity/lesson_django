@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.contrib.auth import logout
+from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 
 
@@ -15,3 +16,8 @@ class AboutPageView(TemplateView):
 
 class InfoPageView(TemplateView):
     template_name = 'blog/info.html'
+
+
+def logout_user(request):
+    logout(request)
+    return redirect('home')
