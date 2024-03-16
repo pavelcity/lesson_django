@@ -81,130 +81,49 @@
 
 <div class="bg-white py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-md px-4 md:px-8">
-    <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">Our competitive advantage</h1>
+    <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">Что такое Django?</h1>
 
     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-      This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text. The important factor when using filler text is that the text looks realistic otherwise it will not look very good.<br /><br />
-
-      This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is <a href="#" class="text-indigo-500 underline transition duration-100 hover:text-indigo-600 active:text-indigo-700">random</a> or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text.
+      Django — это высокоуровневый Python веб-фреймворк, который позволяет быстро создавать безопасные и поддерживаемые веб-сайты. Созданный опытными разработчиками, Django берёт на себя большую часть хлопот веб-разработки, поэтому вы можете сосредоточиться на написании своего веб-приложения без необходимости изобретать велосипед. Он бесплатный и с открытым исходным кодом, имеет растущее и активное сообщество, отличную документацию и множество вариантов как бесплатной, так и платной поддержки.<br /><br />
     </p>
 
-    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">About us</h2>
+    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">Является ли Django гибким?</h2>
 
-    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text.</p>
+    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">Веб-фреймворки часто можно поделить на "гибкие" и "негибкие".</p>
 
-    <ul class="mb-6 list-inside list-disc text-gray-500 sm:text-lg md:mb-8">
-      <li>This is a section of some simple filler text</li>
-      <li>Also known as placeholder text</li>
-      <li>It shares some characteristics of a real written text</li>
-    </ul>
+    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">Негибкие - это те, у которых есть "правильный путь" для решения какой-либо конкретной задачи. Они часто поддерживают быстрое развёртывание в определённой области (решение проблем определённого типа), потому что правильный способ сделать что-либо обычно хорошо понимается и хорошо документируется. Однако они могут быть менее гибкими при решении проблем за пределами их основной сферы и, как правило, предлагают меньше вариантов того, какие компоненты и подходы они могут использовать..</p>
 
-    <blockquote class="mb-6 border-l-4 pl-4 italic text-gray-500 sm:text-lg md:mb-8 md:pl-6">“This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.”</blockquote>
+    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+      Напротив, у гибких фреймворков гораздо меньше ограничений на лучший способ склеивания компонентов для достижения цели или даже того, какие компоненты следует использовать. Они облегчают разработчикам использование наиболее подходящих инструментов для выполнения конкретной задачи, хотя и за счёт того, что вам нужно самим найти эти компоненты.
+    </p>
+
+    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+      Django «умеренно гибкий» и, следовательно, обеспечивает «лучшее из обоих миров». Он предоставляет набор компонентов для обработки большинства задач веб-разработки и один (или два) предпочтительных способа их использования. Однако такая архитектура Django означает, что вы обычно можете выбирать из нескольких различных опций или при необходимости добавлять поддержку для совершенно новых.
+    </p>
+
+
 
     <div class="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8">
-      <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600&h=350" loading="lazy" alt="Photo by Minh Pham" class="h-full w-full object-cover object-center" />
+      <img src="{% static 'blog/img/django.jpg' %}" loading="lazy" alt="django" class="h-full w-full object-cover object-center">
     </div>
 
-    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">Features</h2>
+    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">Что такое среда разработки Django?</h2>
 
-    <p class="text-gray-500 sm:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text.</p>
+    <p class="mb-6 text-gray-500 sm:text-lg">
+      Среда разработки - это установка Django на вашем локальном компьютере, которую вы можете использовать для разработки и тестирования приложений Django до их развёртывания в производственной среде.
+    </p>
+
+    <p class="mb-6 text-gray-500 sm:text-lg">
+      Основными инструментами, которые предоставляет сам Django, является набор скриптов Python для создания и работы с проектами Django, а также простой веб-сервер разработки, который можно использовать для тестирования локальных (то есть на вашем компьютере, а не на внешнем веб-сервере) веб-приложений Django на веб-браузере вашего компьютера.
+    </p>
+
+    <p class="mb-6 text-gray-500 sm:text-lg">
+      Существуют и другие периферийные инструменты, являющиеся частью среды разработки, которые мы не будем освещать здесь. К ним относятся такие вещи, как текстовый редактор или IDE для редактирования кода, и инструмент управления исходным кодом, например Git, для безопасного управления различными версиями вашего кода. Мы предполагаем, что у вас уже установлен текстовый редактор.
+    </p>
+
   </div>
 </div>
 
-
-
-
-<div class="bg-white py-6 sm:py-8 lg:py-12">
-  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-    <!-- text - start -->
-    <div class="mb-10 md:mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Frequently asked questions</h2>
-
-      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
-    </div>
-    <!-- text - end -->
-
-    <div class="grid gap-8 sm:grid-cols-2 sm:gap-y-10 xl:grid-cols-3">
-      <!-- question - start -->
-      <div class="relative rounded-lg bg-gray-100 p-5 pt-8">
-        <span class="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-500 text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-          </svg>
-        </span>
-
-        <h3 class="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">How does the product work?</h3>
-        <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
-      </div>
-      <!-- question - end -->
-
-      <!-- question - start -->
-      <div class="relative rounded-lg bg-gray-100 p-5 pt-8">
-        <span class="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-500 text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-          </svg>
-        </span>
-
-        <h3 class="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">What are the features?</h3>
-        <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
-      </div>
-      <!-- question - end -->
-
-      <!-- question - start -->
-      <div class="relative rounded-lg bg-gray-100 p-5 pt-8">
-        <span class="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-500 text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-          </svg>
-        </span>
-
-        <h3 class="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">What about integrations?</h3>
-        <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
-      </div>
-      <!-- question - end -->
-
-      <!-- question - start -->
-      <div class="relative rounded-lg bg-gray-100 p-5 pt-8">
-        <span class="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-500 text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-          </svg>
-        </span>
-
-        <h3 class="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">Is support available?</h3>
-        <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
-      </div>
-      <!-- question - end -->
-
-      <!-- question - start -->
-      <div class="relative rounded-lg bg-gray-100 p-5 pt-8">
-        <span class="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-500 text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-          </svg>
-        </span>
-
-        <h3 class="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">How does one upgrage a plan?</h3>
-        <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
-      </div>
-      <!-- question - end -->
-
-      <!-- question - start -->
-      <div class="relative rounded-lg bg-gray-100 p-5 pt-8">
-        <span class="absolute -top-4 left-4 inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-500 text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-          </svg>
-        </span>
-
-        <h3 class="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">Which payment methods are available?</h3>
-        <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
-      </div>
-      <!-- question - end -->
-    </div>
-  </div>
-</div>
 
 
 
